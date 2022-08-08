@@ -18,7 +18,7 @@ add_message_files(
     BoundingBoxReference.msg
     Connection.msg
     ControlPoint.msg
-    CurrentAction.msg
+    ActionState.msg
     Edge.msg
     EdgeState.msg
     Error.msg
