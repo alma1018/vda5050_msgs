@@ -59,7 +59,7 @@ vda5050_msgs/Load[] loads                            # Loads that are currently 
                                                      # Optional: If AGV cannot determine load state, leave the array out of the state.
                                                      # If the  AGV  can determine the  load  state,  but  the  array  is  empty,  the  AGV  is considered unloaded.
 
-vda5050_msgs/CurrentAction[] action_states           # Contains a list of the current actions and the actions which are
+vda5050_msgs/ActionState[] action_states             # Contains a list of the current actions and the actions which are
                                                      # yet to be finished. This may include actions from previous nodes
                                                      # that are still in progress. When an action is completed, an
                                                      # updated state message is published with action_status set to

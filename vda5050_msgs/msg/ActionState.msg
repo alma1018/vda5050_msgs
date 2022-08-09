@@ -1,4 +1,5 @@
 string action_id           # action_name_ID
+string action_type         # action_type of the action. Optional: only for informational or visualization purposes. Order knows the type.
 string action_description  # Additional information on the current action
 string action_status       # Enum {waiting; initializing; running; finished; failed} waiting: waiting for trigger
                           # failed: action could not be performed.
